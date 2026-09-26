@@ -10,14 +10,14 @@ A structured journey from **OOP fundamentals → design principles → design pa
 🧠 LOW-LEVEL DESIGN — ZERO → 60+ LPA INTERVIEW READY
 │
 ├── 00. LLD FOUNDATIONS
-│   ├── 00.1 What is LLD?                              [30 min]
-│   ├── 00.2 HLD vs LLD                               [30 min]
-│   ├── 00.3 Why LLD Exists                           [30 min]
-│   ├── 00.4 Requirements → Design                   [45 min]
-│   ├── 00.5 Functional vs Non-Functional Requirements [30 min]
-│   ├── 00.6 Identifying Objects & Responsibilities   [45 min]
-│   ├── 00.7 Abstraction & Modeling                  [45 min]
-│   └── 00.8 LLD Interview Approach                  [1 hr] ⭐
+│   ├── 00.1 What is LLD?                              [30 min] ✅
+│   ├── 00.2 HLD vs LLD                               [30 min]  ✅
+│   ├── 00.3 Why LLD Exists                           [30 min]  ✅
+│   ├── 00.4 Requirements → Design                    [45 min]  ✅
+│   ├── 00.5 Functional vs Non-Functional Requirements [30 min] ✅
+│   ├── 00.6 Identifying Objects & Responsibilities   [45 min]  ✅
+│   ├── 00.7 Abstraction & Modeling                  [45 min]   ✅
+│   └── 00.8 LLD Interview Approach                  [1 hr] ⭐  ✅
 │
 ├── 01. OBJECT-ORIENTED PROGRAMMING
 │   ├── 01.1 Class & Object                            [45 min]
@@ -118,17 +118,40 @@ A structured journey from **OOP fundamentals → design principles → design pa
 │   ├── 09.8 Invariants                                [1 hr] ⭐
 │   └── 09.9 Rich vs Anemic Domain Models              [1 hr]
 │
-├── 10. LAYERED & CLEAN ARCHITECTURE
+├── 10. ARCHITECTURE & APPLICATION STRUCTURE
+│   │
 │   ├── 10.1 Layered Architecture                      [1 hr] ⭐
 │   ├── 10.2 Presentation Layer                        [30 min]
 │   ├── 10.3 Application Layer                         [45 min]
 │   ├── 10.4 Domain Layer                              [1 hr] ⭐
 │   ├── 10.5 Infrastructure Layer                      [45 min]
 │   ├── 10.6 Dependency Direction                      [1 hr] ⭐
-│   ├── 10.7 Clean Architecture                        [1.5 hr] ⭐
-│   ├── 10.8 Hexagonal Architecture                    [1 hr] ⭐
-│   ├── 10.9 Ports & Adapters                          [1 hr]
-│   └── 10.10 When NOT to Use Clean Architecture       [45 min]
+│   │
+│   ├── 10.7 MVC Architecture                          [1 hr] ⭐
+│   │   ├── Model
+│   │   ├── View
+│   │   ├── Controller
+│   │   └── Request Flow
+│   │
+│   ├── 10.8 MVP Architecture                          [30 min]
+│   ├── 10.9 MVVM Architecture                         [45 min]
+│   │
+│   ├── 10.10 Modular Architecture                    [45 min] ⭐
+│   ├── 10.11 Package-by-Layer                         [30 min]
+│   ├── 10.12 Package-by-Feature                       [45 min] ⭐
+│   ├── 10.13 Project / Package Structure              [45 min] ⭐
+│   │
+│   ├── 10.14 Clean Architecture                       [1.5 hr] ⭐
+│   ├── 10.15 Hexagonal Architecture                   [1 hr] ⭐
+│   ├── 10.16 Onion Architecture                       [1 hr]
+│   ├── 10.17 Ports & Adapters                         [1 hr]
+│   │
+│   ├── 10.18 Modular Monolith                         [1 hr] ⭐
+│   ├── 10.19 Microservices Architecture               [1 hr]
+│   ├── 10.20 Event-Driven Architecture                [1 hr] ⭐
+│   ├── 10.21 CQRS                                    [1 hr]
+│   ├── 10.22 Event Sourcing                           [1 hr]
+│   └── 10.23 Choosing the Right Architecture          [1 hr] ⭐
 │
 ├── 11. DEPENDENCY INJECTION
 │   ├── 11.1 What is Dependency Injection?             [45 min] ⭐
@@ -253,10 +276,12 @@ A structured journey from **OOP fundamentals → design principles → design pa
 │   ├── 19.3 Repository & JPA                          [1 hr]
 │   ├── 19.4 Dependency Injection                     [45 min]
 │   ├── 19.5 Transactions                              [1 hr]
-│   ├── 19.6 Redis Integration                         [1 hr]
-│   ├── 19.7 Kafka / Event Integration                 [1 hr]
-│   ├── 19.8 External Service Integration              [1 hr]
-│   └── 19.9 Production-Ready Service Design          [1.5 hr] ⭐
+│   ├── 19.6 Project / Package Structure              [1 hr] ⭐
+│   ├── 19.7 Modular Spring Boot Design                [1 hr] ⭐
+│   ├── 19.8 Redis Integration                         [1 hr]
+│   ├── 19.9 Kafka / Event Integration                 [1 hr]
+│   ├── 19.10 External Service Integration             [1 hr]
+│   └── 19.11 Production-Ready Service Design         [1.5 hr] ⭐
 │
 ├── 20. DESIGN REVIEW & REFACTORING
 │   ├── 20.1 Identify Code Smells                      [1 hr] ⭐
