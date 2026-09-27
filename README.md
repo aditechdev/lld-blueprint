@@ -20,17 +20,17 @@ A structured journey from **OOP fundamentals → design principles → design pa
 │   └── 00.8 LLD Interview Approach                  [1 hr] ⭐  ✅
 │
 ├── 01. OBJECT-ORIENTED PROGRAMMING
-│   ├── 01.1 Class & Object                            [45 min]
-│   ├── 01.2 State & Behavior                          [30 min]
-│   ├── 01.3 Encapsulation                             [45 min]
-│   ├── 01.4 Abstraction                               [45 min]
-│   ├── 01.5 Inheritance                               [45 min]
-│   ├── 01.6 Polymorphism                              [1 hr]
-│   ├── 01.7 Composition                               [1 hr] ⭐
-│   ├── 01.8 Association / Aggregation / Composition   [1 hr]
-│   ├── 01.9 Interface vs Abstract Class              [45 min]
-│   ├── 01.10 Favor Composition Over Inheritance       [45 min] ⭐
-│   └── 01.11 SOLID-Friendly OOP                      [1 hr]
+│   ├── 01.1 Class & Object                            [45 min] ✅
+│   ├── 01.2 State & Behavior                          [30 min] ✅
+│   ├── 01.3 Encapsulation                             [45 min] ✅
+│   ├── 01.4 Abstraction                               [45 min] ✅
+│   ├── 01.5 Inheritance                               [45 min] ✅
+│   ├── 01.6 Polymorphism                              [1 hr]   ✅
+│   ├── 01.7 Composition                               [1 hr] ⭐ ✅
+│   ├── 01.8 Association / Aggregation / Composition   [1 hr]   ✅
+│   ├── 01.9 Interface vs Abstract Class              [45 min]  ✅
+│   ├── 01.10 Favor Composition Over Inheritance      [45 min] ⭐ ✅
+│   └── 01.11 SOLID-Friendly OOP                      [1 hr]    ✅ 
 │
 ├── 02. UML & DESIGN REPRESENTATION
 │   ├── 02.1 Why UML?                                  [20 min]
@@ -38,9 +38,10 @@ A structured journey from **OOP fundamentals → design principles → design pa
 │   ├── 02.3 Object Diagram                            [30 min]
 │   ├── 02.4 Sequence Diagram                          [1 hr] ⭐
 │   ├── 02.5 Activity Diagram                          [45 min]
-│   ├── 02.6 State Diagram                             [45 min]
+│   ├── 02.6 State Diagram                             [45 min] ⭐
 │   ├── 02.7 Dependency Relationships                  [45 min]
-│   └── 02.8 Mermaid for GitHub                        [30 min]
+│   ├── 02.8 Mermaid for GitHub                        [30 min]
+│   └── 02.9 Reading Diagrams in Interviews            [30 min] ← ADD THIS
 │
 ├── 03. DESIGN PRINCIPLES
 │   ├── 03.1 Single Responsibility Principle           [1 hr] ⭐
