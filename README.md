@@ -49,17 +49,17 @@ LLD
 │   ├── 03.4 Liskov Substitution Principle              [1 hr] ⭐✅
 │   ├── 03.5 Interface Segregation Principle             [1 hr] ⭐✅
 │   ├── 03.6 Dependency Inversion Principle              [1 hr] ⭐✅
-│   ├── 03.7 High Cohesion                              [45 min]
-│   ├── 03.8 Low Coupling                               [45 min]
-│   ├── 03.9 Composition Over Inheritance               [45 min] ⭐
-│   ├── 03.10 DRY                                      [30 min]
-│   ├── 03.11 KISS                                     [30 min]
-│   ├── 03.12 YAGNI                                    [30 min]
-│   ├── 03.13 Separation of Concerns                   [45 min]
-│   ├── 03.14 Law of Demeter                           [45 min]
-│   ├── 03.15 Tell, Don't Ask                          [45 min]
-│   ├── 03.16 Program to an Interface                  [45 min]
-│   └── 03.17 Principle Trade-offs                     [1 hr] ⭐
+│   ├── 03.7 High Cohesion                              [45 min]✅
+│   ├── 03.8 Low Coupling                               [45 min]✅
+│   ├── 03.9 Composition Over Inheritance               [45 min] ⭐✅
+│   ├── 03.10 DRY                                      [30 min]✅
+│   ├── 03.11 KISS                                     [30 min]✅
+│   ├── 03.12 YAGNI                                    [30 min]✅
+│   ├── 03.13 Separation of Concerns                   [45 min]✅
+│   ├── 03.14 Law of Demeter                           [45 min]✅
+│   ├── 03.15 Tell, Don't Ask                          [45 min]✅
+│   ├── 03.16 Program to an Interface                  [45 min]✅
+│   └── 03.17 Principle Trade-offs                     [1 hr] ⭐✅
 │
 ├── 04. CODE QUALITY & OBJECT DESIGN
 │   ├── 04.1 Types of Coupling                          [45 min]
