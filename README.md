@@ -62,52 +62,54 @@ LLD
 │   └── 03.17 Principle Trade-offs                     [1 hr] ⭐✅
 │
 ├── 04. CODE QUALITY & OBJECT DESIGN
-│   ├── 04.1 Types of Coupling                          [45 min]
-│   ├── 04.2 Types of Cohesion                          [45 min]
-│   ├── 04.3 Dependency Management                      [45 min]
-│   ├── 04.4 Immutability                               [45 min]
-│   ├── 04.5 Side Effects                               [30 min]
-│   ├── 04.6 Maintainability                            [30 min]
-│   └── 04.7 Extensibility                              [45 min]
+│   ├── 04.1 Types of Coupling                          [45 min]✅
+│   ├── 04.2 Types of Cohesion                          [45 min]✅
+│   ├── 04.3 Dependency Management                      [45 min]✅
+│   ├── 04.4 Immutability                               [45 min]✅
+│   ├── 04.5 Side Effects                               [30 min]✅
+│   ├── 04.6 Maintainability                            [30 min]✅
+│   └── 04.7 Extensibility                              [45 min]✅
 │
-├── 05. CREATIONAL DESIGN PATTERNS
-│   ├── 05.1 Why Creational Patterns?                   [30 min]
-│   ├── 05.2 Factory Method                              [1 hr] ⭐
-│   ├── 05.3 Abstract Factory                            [1 hr]
-│   ├── 05.4 Builder                                     [1 hr] ⭐
-│   ├── 05.5 Prototype                                   [45 min]
-│   └── 05.6 Singleton                                   [1 hr] ⭐
+├── 05. DESIGN PATTERNS
+│   │
+│   ├── 05.1 CREATIONAL DESIGN PATTERNS
+│   │   ├── 05.1.1 Why Creational Patterns?                [30 min]
+│   │   ├── 05.1.2 Factory Method                           [1 hr] ⭐ ✅
+│   │   ├── 05.1.3 Abstract Factory                         [1 hr]    ✅
+│   │   ├── 05.1.4 Builder                                  [1 hr] ⭐ ✅
+│   │   ├── 05.1.5 Prototype                                [45 min]  ✅
+│   │   └── 05.1.6 Singleton                                [1 hr] ⭐ ✅
+│   │
+│   ├── 05.2 STRUCTURAL DESIGN PATTERNS
+│   │   ├── 05.2.1 Adapter                                  [1 hr] ⭐
+│   │   ├── 05.2.2 Decorator                                [1 hr] ⭐
+│   │   ├── 05.2.3 Facade                                   [45 min] ⭐
+│   │   ├── 05.2.4 Proxy                                    [1 hr] ⭐
+│   │   ├── 05.2.5 Composite                                [1 hr]
+│   │   ├── 05.2.6 Bridge                                   [1 hr]
+│   │   └── 05.2.7 Flyweight                                [45 min]
+│   │
+│   ├── 05.3 BEHAVIORAL DESIGN PATTERNS
+│   │   ├── 05.3.1 Strategy                                 [1 hr] ⭐
+│   │   ├── 05.3.2 Observer                                 [1 hr] ⭐
+│   │   ├── 05.3.3 Command                                  [1 hr] ⭐
+│   │   ├── 05.3.4 State                                    [1 hr] ⭐
+│   │   ├── 05.3.5 Chain of Responsibility                  [1 hr] ⭐
+│   │   ├── 05.3.6 Template Method                          [45 min]
+│   │   ├── 05.3.7 Iterator                                 [45 min]
+│   │   ├── 05.3.8 Mediator                                 [45 min]
+│   │   ├── 05.3.9 Memento                                  [45 min]
+│   │   ├── 05.3.10 Visitor                                 [1 hr]
+│   │   └── 05.3.11 Null Object                             [30 min]
+│   │
+│   └── 05.4 DESIGN PATTERN APPLICATION
+│       ├── 05.4.1 Pattern vs Principle                      [45 min] ⭐
+│       ├── 05.4.2 Combining Multiple Patterns               [1 hr] ⭐
+│       ├── 05.4.3 Avoiding Overengineering                  [45 min] ⭐
+│       ├── 05.4.4 Identifying Patterns from Requirements    [1 hr] ⭐
+│       └── 05.4.5 Refactoring Bad Designs                   [1.5 hr] ⭐
 │
-├── 06. STRUCTURAL DESIGN PATTERNS
-│   ├── 06.1 Adapter                                     [1 hr] ⭐
-│   ├── 06.2 Decorator                                   [1 hr] ⭐
-│   ├── 06.3 Facade                                      [45 min] ⭐
-│   ├── 06.4 Proxy                                       [1 hr] ⭐
-│   ├── 06.5 Composite                                   [1 hr]
-│   ├── 06.6 Bridge                                     [1 hr]
-│   └── 06.7 Flyweight                                  [45 min]
-│
-├── 07. BEHAVIORAL DESIGN PATTERNS
-│   ├── 07.1 Strategy                                    [1 hr] ⭐
-│   ├── 07.2 Observer                                    [1 hr] ⭐
-│   ├── 07.3 Command                                     [1 hr] ⭐
-│   ├── 07.4 State                                       [1 hr] ⭐
-│   ├── 07.5 Chain of Responsibility                     [1 hr] ⭐
-│   ├── 07.6 Template Method                             [45 min]
-│   ├── 07.7 Iterator                                    [45 min]
-│   ├── 07.8 Mediator                                    [45 min]
-│   ├── 07.9 Memento                                     [45 min]
-│   ├── 07.10 Visitor                                    [1 hr]
-│   └── 07.11 Null Object                               [30 min]
-│
-├── 08. DESIGN PATTERN APPLICATION
-│   ├── 08.1 Pattern vs Principle                        [45 min] ⭐
-│   ├── 08.2 Combining Multiple Patterns                 [1 hr] ⭐
-│   ├── 08.3 Avoiding Overengineering                    [45 min] ⭐
-│   ├── 08.4 Identifying Patterns from Requirements      [1 hr] ⭐
-│   └── 08.5 Refactoring Bad Designs                     [1.5 hr] ⭐
-│
-├── 09. DOMAIN MODELING
+├── 06. DOMAIN MODELING
 │   ├── 09.1 Entities                                    [45 min] ⭐
 │   ├── 09.2 Value Objects                               [45 min] ⭐
 │   ├── 09.3 Aggregates                                  [1 hr] ⭐
@@ -118,7 +120,7 @@ LLD
 │   ├── 09.8 Invariants                                  [1 hr] ⭐
 │   └── 09.9 Rich vs Anemic Domain Models                [1 hr]
 │
-├── 10. ARCHITECTURE & APPLICATION STRUCTURE
+├── 7. ARCHITECTURE & APPLICATION STRUCTURE
 │   ├── 10.1 Layered Architecture                        [1 hr] ⭐
 │   ├── 10.2 Presentation Layer                          [30 min]
 │   ├── 10.3 Application Layer                           [45 min]
@@ -147,7 +149,7 @@ LLD
 │   ├── 10.22 Event Sourcing                              [1 hr]
 │   └── 10.23 Choosing the Right Architecture             [1 hr] ⭐
 │
-├── 11. DEPENDENCY INJECTION
+├── 8. DEPENDENCY INJECTION
 │   ├── 11.1 Dependency Injection                         [45 min] ⭐
 │   ├── 11.2 Constructor Injection                        [45 min] ⭐
 │   ├── 11.3 Setter Injection                             [30 min]
@@ -156,7 +158,7 @@ LLD
 │   ├── 11.6 DI Containers                                [45 min]
 │   └── 11.7 Spring Dependency Injection                  [1 hr] ⭐
 │
-├── 12. JAVA FOR LLD
+├── 9. JAVA FOR LLD
 │   ├── 12.1 Classes & Objects                            [45 min]
 │   ├── 12.2 Interfaces & Abstract Classes                [45 min]
 │   ├── 12.3 Access Modifiers                             [30 min]
@@ -171,7 +173,7 @@ LLD
 │   ├── 12.12 equals / hashCode / toString                [45 min] ⭐
 │   └── 12.13 Java Features Used in LLD                   [1 hr] ⭐
 │
-├── 13. CONCURRENCY & THREAD-SAFE DESIGN
+├── 10. CONCURRENCY & THREAD-SAFE DESIGN
 │   ├── 13.1 Process vs Thread                            [30 min]
 │   ├── 13.2 Race Conditions                              [45 min] ⭐
 │   ├── 13.3 Critical Sections                            [30 min]
@@ -188,7 +190,7 @@ LLD
 │   ├── 13.14 Thread-Safe Classes                         [1 hr] ⭐
 │   └── 13.15 Designing for Concurrency                   [1 hr] ⭐
 │
-├── 14. PERSISTENCE & DATA ACCESS
+├── 11. PERSISTENCE & DATA ACCESS
 │   ├── 14.1 DAO Pattern                                  [45 min]
 │   ├── 14.2 ORM Concepts                                 [45 min]
 │   ├── 14.3 Entity Mapping                               [45 min]
@@ -198,7 +200,7 @@ LLD
 │   ├── 14.7 Caching at Object Level                      [45 min]
 │   └── 14.8 Persistence Trade-offs                       [45 min]
 │
-├── 15. API & SERVICE DESIGN
+├── 12. API & SERVICE DESIGN
 │   ├── 15.1 Service Responsibility                       [45 min]
 │   ├── 15.2 Controller / Service / Repository             [1 hr] ⭐
 │   ├── 15.3 DTOs                                         [45 min] ⭐
@@ -209,7 +211,7 @@ LLD
 │   ├── 15.8 Retry & Failure Handling                     [1 hr]
 │   └── 15.9 API Evolution                                [45 min]
 │
-├── 16. ADVANCED LLD CONCEPTS
+├── 13. ADVANCED LLD CONCEPTS
 │   ├── 16.1 State Machines                                [1.5 hr] ⭐
 │   ├── 16.2 Rule Engines                                 [1.5 hr] ⭐
 │   ├── 16.3 Plugin Architecture                           [1 hr]
@@ -221,7 +223,7 @@ LLD
 │   ├── 16.9 Cache Design                                 [1 hr] ⭐
 │   └── 16.10 Notification Systems                        [1 hr] ⭐
 │
-├── 17. LLD MACHINE-CODING
+├── 14. LLD MACHINE-CODING
 │   ├── 17.1 Machine-Coding Fundamentals                   [1 hr] ⭐
 │   ├── 17.2 Class Identification                          [45 min]
 │   ├── 17.3 API Design                                   [45 min]
@@ -232,7 +234,7 @@ LLD
 │   ├── 17.8 Refactoring During Interview                 [45 min]
 │   └── 17.9 Time Management                              [30 min]
 │
-├── 18. CLASSIC LLD INTERVIEW PROBLEMS
+├── 15. CLASSIC LLD INTERVIEW PROBLEMS
 │   ├── 🟢 BEGINNER
 │   │   ├── Parking Lot                                   [2 hr] ⭐
 │   │   ├── Library Management                            [2 hr]
@@ -261,7 +263,7 @@ LLD
 │       ├── Pub/Sub System                                 [3 hr] ⭐
 │       └── Rule Engine                                   [3 hr] ⭐
 │
-├── 19. LLD + BACKEND INTEGRATION
+├── 16. LLD + BACKEND INTEGRATION
 │   ├── 19.1 LLD in Spring Boot                           [1 hr] ⭐
 │   ├── 19.2 Controllers & Services                       [45 min]
 │   ├── 19.3 Repository & JPA                             [1 hr]
@@ -272,7 +274,7 @@ LLD
 │   ├── 19.8 External Service Integration                  [1 hr]
 │   └── 19.9 Production-Ready Service Design              [1.5 hr] ⭐
 │
-├── 20. DESIGN REVIEW & REFACTORING
+├── 17. DESIGN REVIEW & REFACTORING
 │   ├── 20.1 Identify Code Smells                          [1 hr] ⭐
 │   ├── 20.2 God Object                                    [45 min]
 │   ├── 20.3 God Service                                   [45 min]
@@ -283,7 +285,7 @@ LLD
 │   ├── 20.8 Refactoring Techniques                        [1 hr] ⭐
 │   └── 20.9 Design Review Checklist                       [1 hr] ⭐
 │
-└── 21. INTERVIEW MASTERY
+└── 18. INTERVIEW MASTERY
     ├── 21.1 30-Minute LLD Interview Strategy              [1 hr] ⭐
     ├── 21.2 Requirement Clarification                      [45 min] ⭐
     ├── 21.3 Identify Core Entities                         [45 min]
