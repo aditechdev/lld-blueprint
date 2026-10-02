@@ -81,13 +81,13 @@ LLD
 │   │   └── 05.1.6 Singleton                                [1 hr] ⭐ ✅
 │   │
 │   ├── 05.2 STRUCTURAL DESIGN PATTERNS
-│   │   ├── 05.2.1 Adapter                                  [1 hr] ⭐
-│   │   ├── 05.2.2 Decorator                                [1 hr] ⭐
-│   │   ├── 05.2.3 Facade                                   [45 min] ⭐
-│   │   ├── 05.2.4 Proxy                                    [1 hr] ⭐
-│   │   ├── 05.2.5 Composite                                [1 hr]
-│   │   ├── 05.2.6 Bridge                                   [1 hr]
-│   │   └── 05.2.7 Flyweight                                [45 min]
+│   │   ├── 05.2.1 Adapter                                  [1 hr] ⭐ ✅1
+│   │   ├── 05.2.2 Decorator                                [1 hr] ⭐  ✅2
+│   │   ├── 05.2.3 Facade                                   [45 min] ⭐✅1
+│   │   ├── 05.2.4 Proxy                                    [1 hr] ⭐ ✅1
+│   │   ├── 05.2.5 Composite                                [1 hr]✅2
+│   │   ├── 05.2.6 Bridge                                   [1 hr]✅3
+│   │   └── 05.2.7 Flyweight                                [45 min]✅3
 │   │
 │   ├── 05.3 BEHAVIORAL DESIGN PATTERNS
 │   │   ├── 05.3.1 Strategy                                 [1 hr] ⭐
